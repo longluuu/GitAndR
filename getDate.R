@@ -1,7 +1,7 @@
 # function returning yesterdays date
-get_yesterday <- function() {
-  x <- (Sys.Date() - 1)
+get_today <- function() {
+  x <- (Sys.Date())
   return(x)
 }
 
-get_yesterday()
+get_today()
